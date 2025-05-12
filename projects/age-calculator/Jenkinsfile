@@ -9,6 +9,11 @@ pipeline {
                 echo "Cloning Successful"
             }
         }
+        stage('Test'){
+            steps{
+                echo "There is no testing here"
+            }
+        }
         stage('Deploy'){
             steps{
                 echo "Deploying to Apache server...."
