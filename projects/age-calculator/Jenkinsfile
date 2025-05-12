@@ -19,7 +19,7 @@ pipeline {
             steps{
                 echo "Deploying to Apache server...."
                 sh "sudo cp -r /home/ubuntu/workspace/practice-jenkins/projects/age-calculator/* /var/www/html/"
-                echo "Deployment successful"
+                echo "Deployment successful!!"
             }
         }
     }
